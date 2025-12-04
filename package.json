@@ -1,0 +1,9 @@
+{
+  "name": "warphost-test-app",
+  "version": "1.0.0",
+  "description": "A simple test app for WarpHost",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
