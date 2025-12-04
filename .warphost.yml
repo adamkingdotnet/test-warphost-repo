@@ -1,0 +1,31 @@
+# WarpHost Configuration
+# https://warphost.io/docs/configuration
+
+# Project ID (required)
+project_id: proj_99bdfb9620a66121
+
+# Application settings
+port: 3000
+
+# Build settings
+build:
+  # Dockerfile to use (optional, auto-detected if not specified)
+  # dockerfile: Dockerfile
+
+  # Build arguments
+  # args:
+  #   NODE_ENV: production
+
+# Environment variables for the container
+# env:
+#   DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
+# Health check settings
+healthcheck:
+  path: /
+  timeout: 30
+
+# Resource limits (optional, defaults shown)
+# resources:
+#   memory: 256m
+#   cpu: 0.25
